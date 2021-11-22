@@ -1,22 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -35,7 +18,7 @@
   <h3 align="center">PyroSafe</h3>
 
   <p align="center">
-    Welcome to Pyrosafe!
+    Welcome to PyroSafe!
     <br />
     <a href="https://github.com/mr-talukdar/Pyrosafe-Game"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,16 +66,28 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Professor Jeremy Bailenson once said that XR can be used in places that are either hazardous, or experiences that aren't available otherwise. The issue we are dealing with is the lack of proper training to deal with fire accidents that may accelerate to something bigger. People don't know the types of fires & fire extinguishers and hence are not able to respond to such situations properly.
+Professor Jeremy Bailenson once said that in XR, you should do things you can't do in real life yet, such as fly to the moon; or you should do things that are dangerous, like jumping off a cliff. 
+The issue we are dealing with is the lack of proper training to deal with fire accidents that may accelerate to something bigger. People don't know the types of fires & fire extinguishers and hence are not able to respond to such situations properly. Fire safety training, although mandatory in some places, is still not very popular. Every year, fire accidents claim a lot of lives and cause injuries and leave victims with lifelong scars. A lot of these accidents are actually preventable.
 
-With Meta's Presence platform, it is easy to train for hazardous situations in personal and safe spaces. Our solution aims at training users on how to respond to fire accidents that have the potential of growing bigger. We use passthrough API, hand tracking, voice commands and game learning to augment a fire situation, and the user has to make smart decisions in the given time period.
+We did a survey amongst our peers (young adults) and found out that shockingly, the place where people lacked knowledge the most was the types of fires and what to do about them. People had very limited knowledge such as - water shouldn't be used on electric fires, however there was a huge chunk of people who didn't know even this piece of basic fact!
+Some of the survey takers knew how to use a fire extinguisher, but half of them still didn't know about the types of fires. This is alarming because using the wrong extinguisher can often create explosions or accelerate the fire.
+
+With Meta's Presence platform and an Oculus headset, it is quite easy to train for such hazardous situations in personal and safe spaces. 
+Our solution aims at training users on how to respond to fire accidents that have the potential of growing bigger. We use passthrough, hand and voice SDKs to create a fully immersive game learning experience. The users are put in midst of a fire accident situation, and they have to make smart decisions within the given time period to prevent the fire from spreading.
+
+Before the situation is started, the user is given instructions by a virtual assistant about the types of fire and what extinguisher to use for what type. 
+
+We have used passthrough, hand and voice SDK on the Oculus Quest to build this game experience.
+Once the insight SDK is released, we plan to use the anchors to have more realistic experiences by using physics and SLAM (Simultaneous Localisation and Mapping).
+We plan to use basic user data in the future so that we can create user profiles and have user IDs.
+Since we use passthrough SDK, but oculus doesn't make that data public, the privacy of user is secure.
 
 How it Works:
-* Introduction - The Assistant Teaches you things
-* Scenario Spawns - A scenario is Spawned Randomly in your Own Environment in Passthrough
-* Scenario Analysis + Understanding - User uses their time to analyse the situation, time used is calculated for scores
-* Scenario Response - User uses Hand Based Interactions to respond to the Scenario and Voice Based Commands to tell the Assistant what to use
-* End - If the correct extinguisher type is selected using the correct voice command, the assistant puts out the fire. Otherwise, boom.
+* Introduction - The virtual assistant tells the user about the types of fires, and the types of extinguishers needed for dealing with them.
+* Scenario Spawns - A small fire accident scenario is spawned in the user's environment using passthrough. This scenario simulates an accident that can accually happen and has the potential of accelerating into a big fire. The aim is to stop the fire when it's small.
+* Scenario Analysis + Understanding - User analyses the situation by looking around the environment. They understand the type of fire and finalise the type of extinguisher they need.
+* Scenario Response - User has the freedom to do Hand Based Interactions to respond to the Scenario and Voice Based Commands to tell the Assistant what type of extinguisher to use. There is a countdown timer and the user has to respond before time runs out. The quicker the user responds, the better.
+* End - If the correct extinguisher type is selected using the correct voice command, the assistant puts out the fire. Otherwise, the fire spreads. The user receives feedback about their performance on a 3 star rating scale.
 
 
 
@@ -166,13 +161,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Make the Assistant 
-- [x] Make the Environment
+- [x] Create a Virtual Assistant 
+- [x] Create the Environment
+- [x] Use voice commands to interact with assistant.
+- [x] Make the assistant put out the fire with the appropriate vfx (smoke for co2, etc)
+- [x] Star based rating feedback for the game
+- [ ] Have User ID and User Profiles
+- [ ] Add multiple scenarios for the fire accidents
 - [ ] Add Anchors when it is released
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
+    - [x] English
     - [ ] Chinese
     - [ ] Spanish
+    - [ ] Russian
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
