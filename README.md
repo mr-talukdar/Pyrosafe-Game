@@ -234,7 +234,7 @@ This Project wouldnt have been possible without,
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 * [Royalty Free 3D models from CGTrader](https://www.cgtrader.com/)
-* [Wonderful open source softwares such as GIMP and Blender](https://www.gimp.org/ ; https://www.blender.org/)
+* [Blender](https://www.blender.org/)
 * [Unity](https://unity.com/)
 * [Oculus](https://www.oculus.com/)
 
