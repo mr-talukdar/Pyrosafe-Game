@@ -233,6 +233,17 @@ This Project wouldnt have been possible without,
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Royalty Free 3D models from CGTrader](https://www.cgtrader.com/)
+* [Wonderful open source softwares such as GIMP and Blender](https://www.gimp.org/ ; https://www.blender.org/)
+* [Unity](https://unity.com/)
+* [Oculus](https://www.oculus.com/)
+
+## Meet the Team!
+
+* [Anirban Das](https://www.linkedin.com/in/anirbandas52134)
+* [Dipayan Chowdhury](https://www.linkedin.com/in/dipayanchowdhury)
+* [Rahul Talukdar](https://www.linkedin.com/in/mr-talukdar)
+* [Sanchit Sharma](https://www.linkedin.com/in/sanchitgng)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
