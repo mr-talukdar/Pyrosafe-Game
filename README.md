@@ -23,7 +23,7 @@
     <a href="https://github.com/mr-talukdar/Pyrosafe-Game"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mr-talukdar/Pyrosafe-Game/tree/master/Build">View Demo</a>
+    <a href="https://github.com/mr-talukdar/Pyrosafe-Game/releases/tag/demo">View Demo</a>
     ·
     <a href="https://github.com/mr-talukdar/Pyrosafe-Game/issues">Report Bug</a>
     ·
