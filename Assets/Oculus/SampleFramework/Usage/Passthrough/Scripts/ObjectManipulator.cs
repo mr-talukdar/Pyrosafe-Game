@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 // grabs any object that has a collider
@@ -33,6 +34,7 @@ public class ObjectManipulator : MonoBehaviour
     // only used in this script for fading in from black
     public OVRPassthroughLayer passthrough;
 
+    public UnityEvent RenderEvents;
     private void Start()
     {
         if (passthrough)
@@ -118,6 +120,8 @@ public class ObjectManipulator : MonoBehaviour
     IEnumerator StartDemo()
     {
         demoObjects.SetActive(false);
+        
+        
         // fade from black
         float timer = 0.0f;
         float fadeTime = 1.0f;
@@ -134,6 +138,7 @@ public class ObjectManipulator : MonoBehaviour
         }
         //yield return new WaitForSeconds(1.0f);
         demoObjects.SetActive(true);
+        RenderEvents.Invoke();
         Vector3 objFwd = new Vector3(Camera.main.transform.forward.x, -6, Camera.main.transform.forward.z).normalized;
         demoObjects.transform.position = Camera.main.transform.position + objFwd;
         //demoObjects.transform.rotation = Quaternion.LookRotation(objFwd);

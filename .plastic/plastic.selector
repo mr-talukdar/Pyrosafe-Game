@@ -1,4 +1,3 @@
-repository "XRHack2021@WonderataX@cloud"
+rep "XRHack2021@WonderataX@cloud"
   path "/"
-    smartbranch "/main/VR Interactions" changeset "15"                                      
-     
+    smartbranch "/main/VR Interactions"

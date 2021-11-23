@@ -14,13 +14,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   application:
     witConfiguration: {fileID: 0}
-    name: 
-    id: 
-    lang: 
-    isPrivate: 0
-    createdAt: 
+    name: xr_hack_2021
+    id: 451303239852276
+    lang: en
+    isPrivate: 1
+    createdAt: 2021-11-21T20:46:10-0800
   configId: 4e21a24e472ab684e84db753427d5687
-  clientAccessToken: 
-  entities: []
-  intents: []
+  clientAccessToken: UZIW7YJJELHQRSP5VXZNDVJFAM5YBUA3
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1187962225355440
+    name: extinguisher_type
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: co2
+      synonyms:
+      - carbon di oxide
+      - co2
+  - witConfiguration: {fileID: 11400000}
+    id: 434475064722895
+    name: fire_type
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: class c
+      synonyms:
+      - class c
+      - type c
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 315162460439361
+    name: extinguisher_identify
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 256077593085526
+      name: extinguisher_type:extinguisher_type
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 283486333559018
+    name: fire_identify
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2030052360503156
+      name: fire_type:fire_type
+      lookups: []
+      roles: []
+      keywords: []
   traits: []

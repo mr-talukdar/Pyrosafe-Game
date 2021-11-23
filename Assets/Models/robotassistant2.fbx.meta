@@ -3,7 +3,47 @@ guid: c86324819c10e6541bc68b6505421c26
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronze Patina_
+    second: {fileID: 2100000, guid: f19524fa615efc847bfbd9654ba93593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: c4e52801a35b7b047bca97e95033c9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 1ce00b626de5d814fab98c5d630a839d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 9f0c1c1fa970ccc4f98d5dd023d74376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 55c0013ed94b6db418b1cc8e8f2157d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Metal
+    second: {fileID: 2100000, guid: 6b37c0de5d96dd24086d4ecee2d0a873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: 43c15d2f9c4652b41b53e59a24d6a949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holografic_
+    second: {fileID: 2100000, guid: 7c9f0b300d9e3e64d9c2ae5cb714eb2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

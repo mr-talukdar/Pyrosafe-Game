@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: xr_hack_2021
+    id: 451303239852276
+    lang: en
+    isPrivate: 1
+    createdAt: 2021-11-21T20:46:10-0800
+  configId: 98321b8445e3fa347b7c62bda4bcfe09
+  clientAccessToken: UZIW7YJJELHQRSP5VXZNDVJFAM5YBUA3
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1187962225355440
+    name: extinguisher_type
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: co2
+      synonyms:
+      - carbon di oxide
+      - co2
+  - witConfiguration: {fileID: 11400000}
+    id: 434475064722895
+    name: fire_type
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: class c
+      synonyms:
+      - class c
+      - type c
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 315162460439361
+    name: extinguisher_identify
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 256077593085526
+      name: extinguisher_type:extinguisher_type
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 283486333559018
+    name: fire_identify
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2030052360503156
+      name: fire_type:fire_type
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []
