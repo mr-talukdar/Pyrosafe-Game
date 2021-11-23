@@ -84,7 +84,7 @@ Since we use passthrough SDK, but oculus doesn't make that data public, the priv
 
 How it Works:
 * Introduction - The virtual assistant tells the user about the types of fires, and the types of extinguishers needed for dealing with them.
-* Scenario Spawns - A small fire accident scenario is spawned in the user's environment using passthrough. This scenario simulates an accident that can accually happen and has the potential of accelerating into a big fire. The aim is to stop the fire when it's small.
+* Scenario Spawns - A small fire accident scenario is spawned in the user's environment using passthrough API. This scenario simulates an accident that can actually happen and has the potential of accelerating into a big fire. The aim is to stop the fire within a fixed time.
 * Scenario Analysis + Understanding - User analyses the situation by looking around the environment. They understand the type of fire and finalise the type of extinguisher they need.
 * Scenario Response - User has the freedom to do Hand Based Interactions to respond to the Scenario and Voice Based Commands to tell the Assistant what type of extinguisher to use. There is a countdown timer and the user has to respond before time runs out. The quicker the user responds, the better.
 * End - If the correct extinguisher type is selected using the correct voice command, the assistant puts out the fire. Otherwise, the fire spreads. The user receives feedback about their performance on a 3 star rating scale.
