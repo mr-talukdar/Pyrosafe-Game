@@ -1,27 +1,9 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -29,36 +11,36 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="#">
+    <img src="https://res.cloudinary.com/ideation/image/upload/w_128,h_128,q_auto,f_auto,dpr_auto/jgzaoo7pq4bnbsntokeb" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">PyroSafe</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Welcome to PyroSafe!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mr-talukdar/Pyrosafe-Game"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/mr-talukdar/Pyrosafe-Game/releases/tag/demo">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/mr-talukdar/Pyrosafe-Game/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/mr-talukdar/Pyrosafe-Game/issues">Request Feature</a>
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS 
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Tools-&-Presence-Platform-SDKs-Used">Tools & Presence Platform SDKs Used</a></li>
       </ul>
     </li>
     <li>
@@ -76,7 +58,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
+-->
 
 
 <!-- ABOUT THE PROJECT -->
@@ -84,39 +66,52 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Professor Jeremy Bailenson once said that in XR, you should do things you can't do in real life yet, such as fly to the moon; or you should do things that are dangerous, like jumping off a cliff. 
+The issue we are dealing with is the lack of proper training to deal with fire accidents that may accelerate to something bigger. People don't know the types of fires & fire extinguishers and hence are not able to respond to such situations properly. Fire safety training, although mandatory in some places, is still not very popular. Every year, fire accidents claim a lot of lives and cause injuries and leave victims with lifelong scars. A lot of these accidents are actually preventable.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+We did a survey amongst our peers (young adults) and found out that shockingly, the place where people lacked knowledge the most was the types of fires and what to do about them. People had very limited knowledge such as - water shouldn't be used on electric fires, however there was a huge chunk of people who didn't know even this piece of basic fact!
+Some of the survey takers knew how to use a fire extinguisher, but half of them still didn't know about the types of fires. This is alarming because using the wrong extinguisher can often create explosions or accelerate the fire.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+With Meta's Presence platform and an Oculus headset, it is quite easy to train for such hazardous situations in personal and safe spaces. 
+Our solution aims at training users on how to respond to fire accidents that have the potential of growing bigger. We use passthrough, hand and voice SDKs to create a fully immersive game learning experience. The users are put in midst of a fire accident situation, and they have to make smart decisions within the given time period to prevent the fire from spreading.
 
-Use the `BLANK_README.md` to get started.
+Before the situation is started, the user is given instructions by a virtual assistant about the types of fire and what extinguisher to use for what type. 
+
+We have used passthrough, hand and voice SDK on the Oculus Quest to build this game experience.
+Once the insight SDK is released, we plan to use the anchors to have more realistic experiences by using physics and SLAM (Simultaneous Localisation and Mapping).
+We plan to use basic user data in the future so that we can create user profiles and have user IDs.
+Since we use passthrough SDK, but oculus doesn't make that data public, the privacy of user is secure.
+
+How it Works:
+* Introduction - The virtual assistant tells the user about the types of fires, and the types of extinguishers needed for dealing with them.
+* Scenario Spawns - A small fire accident scenario is spawned in the user's environment using passthrough API. This scenario simulates an accident that can actually happen and has the potential of accelerating into a big fire. The aim is to stop the fire within a fixed time.
+* Scenario Analysis + Understanding - User analyses the situation by looking around the environment. They understand the type of fire and finalise the type of extinguisher they need.
+* Scenario Response - User has the freedom to do Hand Based Interactions to respond to the Scenario and Voice Based Commands to tell the Assistant what type of extinguisher to use. There is a countdown timer and the user has to respond before time runs out. The quicker the user responds, the better.
+* End - If the correct extinguisher type is selected using the correct voice command, the assistant puts out the fire. Otherwise, the fire spreads. The user receives feedback about their performance on a 3 star rating scale.
+
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+### Tools & Presence Platform SDKs Used
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Unity Engine](https://unity.com/)
+* [Oculus Integration v34](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)
+* [Voice SDK](https://developer.oculus.com/experimental/voice-sdk-overview/)
+* [Passthrough API](https://developer.oculus.com/experimental/passthrough-api/)
+* [Cutom Hands API](https://developer.oculus.com/resources/hands-design-intro/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!--
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -152,7 +147,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -161,18 +156,25 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Create a Virtual Assistant 
+- [x] Create the Environment
+- [x] Use voice commands to interact with assistant.
+- [x] Make the assistant put out the fire with the appropriate vfx (smoke for co2, etc)
+- [x] Star based rating feedback for the game
+- [ ] Have User ID and User Profiles
+- [ ] Add multiple scenarios for the fire accidents
+- [ ] Add Anchors when it is released
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
+    - [x] English
     - [ ] Chinese
     - [ ] Spanish
+    - [ ] Russian
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -180,7 +182,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -198,7 +200,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -207,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
+<!-- CONTACT 
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
@@ -221,16 +223,27 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+This Project wouldnt have been possible without,
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Royalty Free Music From Bensound](https://www.bensound.com/)
+* [Abstract vector created by freepik - www.freepik.com](https://www.freepik.com/vectors/abstract)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [Royalty Free 3D models from CGTrader](https://www.cgtrader.com/)
+* [Blender](https://www.blender.org/)
+* [Unity](https://unity.com/)
+* [Oculus](https://www.oculus.com/)
+
+## Meet the Team!
+
+* [Anirban Das](https://www.linkedin.com/in/anirbandas52134)
+* [Dipayan Chowdhury](https://www.linkedin.com/in/dipayanchowdhury)
+* [Rahul Talukdar](https://www.linkedin.com/in/mr-talukdar)
+* [Sanchit Sharma](https://www.linkedin.com/in/sanchitgng)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -239,15 +252,13 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/mr-talukdar/Pyrosafe-Game/issues
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/mr-talukdar/Pyrosafe-Game/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/mr-talukdar/Pyrosafe-Game/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[issues-url]: https://github.com/mr-talukdar/Pyrosafe-Game/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/mr-talukdar/
+[product-screenshot]: https://github.com/mr-talukdar/Pyrosafe-Game/blob/master/Images/wjorxxjg6jsfywddmtxo.png
