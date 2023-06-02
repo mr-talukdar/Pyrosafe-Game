@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="https://res.cloudinary.com/ideation/image/upload/w_128,h_128,q_auto,f_auto,dpr_auto/jgzaoo7pq4bnbsntokeb" alt="Logo" width="80" height="80">
+    <img src="https://www.pngitem.com/pimgs/m/129-1298621_fire-safety-logo-png-transparent-png.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PyroSafe</h3>
