@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://www.pngitem.com/pimgs/m/129-1298621_fire-safety-logo-png-transparent-png.png)
 
 Professor Jeremy Bailenson once said that in XR, you should do things you can't do in real life yet, such as fly to the moon; or you should do things that are dangerous, like jumping off a cliff. 
 The issue we are dealing with is the lack of proper training to deal with fire accidents that may accelerate to something bigger. People don't know the types of fires & fire extinguishers and hence are not able to respond to such situations properly. Fire safety training, although mandatory in some places, is still not very popular. Every year, fire accidents claim a lot of lives and cause injuries and leave victims with lifelong scars. A lot of these accidents are actually preventable.
