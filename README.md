@@ -241,7 +241,7 @@ This Project wouldnt have been possible without,
 ## Meet the Team!
 
 * [Anirban Das](https://www.linkedin.com/in/anirbandas52134)
-* [Dipayan Chowdhury](https://www.linkedin.com/in/dipayanchowdhury)
+* [Dipayan Chowdhury](https://www.linkedin.com/in/dipayanch)
 * [Rahul Talukdar](https://www.linkedin.com/in/mr-talukdar)
 * [Sanchit Sharma](https://www.linkedin.com/in/sanchitgng)
 
